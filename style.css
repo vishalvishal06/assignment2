@@ -1,0 +1,56 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+    color: lightslategray;
+}
+
+header {
+    background-color: lightblue;
+    color: white;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+header h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 3rem;
+    margin: 0;
+}
+
+header h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    margin: 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+main p {
+    margin: 0.5rem 0;
+}
+
+main p:nth-child(even) {
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: blue;
+}
+
+main p:nth-child(odd) {
+    font-weight: 300;
+    font-size: 1rem;
+    color: lightslategray;
+}
+
+main p:nth-child(3n) {
+    font-family: 'Lobster', cursive;
+    color: red;
+}
